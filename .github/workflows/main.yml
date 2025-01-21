@@ -25,4 +25,4 @@ jobs:
         username: "app@inviteles.store"
         password: "@WW^h]mBwC5k"
         local-dir: ./ # Path of your Laravel project
-        server-dir: /public_html/app.inviteles.store/ # Path in Rumahweb server
+        # server-dir: /public_html/app.inviteles.store/ # Path in Rumahweb server
