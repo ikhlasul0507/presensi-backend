@@ -21,8 +21,8 @@ jobs:
     - name: Deploy to Rumahweb
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        ftp-server: "ftp.inviteles.store"
-        ftp-username: "app@inviteles.store"
-        ftp-password: "@WW^h]mBwC5k"
+        server: "ftp.inviteles.store"
+        username: "app@inviteles.store"
+        password: "@WW^h]mBwC5k"
         local-dir: ./ # Path of your Laravel project
         server-dir: /public_html/app.inviteles.store/ # Path in Rumahweb server
